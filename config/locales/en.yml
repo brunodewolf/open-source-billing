@@ -177,6 +177,7 @@ en:
       no: "No"
       pdf: "PDF"
       select_estimate_currency: "Select currency..."
+      vat: "VAT number"
 
     pagination:
       previous: "Previous"
