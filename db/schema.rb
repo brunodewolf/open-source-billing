@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+ActiveRecord::Schema.define(version: 20160817124148) do
 ActiveRecord::Schema.define(version: 20161212212133) do
 
   create_table "account_users", force: true do |t|
