@@ -12,7 +12,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 20160817124148) do
-ActiveRecord::Schema.define(version: 20161212212133) do
 
   create_table "account_users", force: true do |t|
     t.integer "user_id"
@@ -121,6 +120,7 @@ ActiveRecord::Schema.define(version: 20161212212133) do
     t.string   "postal_or_zipcode"
     t.string   "phone_number"
     t.string   "fax_number"
+    t.string   "vat_number"
     t.string   "email"
     t.string   "logo"
     t.string   "company_tag_line"
@@ -130,7 +130,6 @@ ActiveRecord::Schema.define(version: 20161212212133) do
     t.string   "archive_number"
     t.datetime "archived_at"
     t.datetime "deleted_at"
-    t.string   "vat_number"
   end
 
   create_table "company_email_templates", force: true do |t|
