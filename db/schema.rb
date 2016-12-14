@@ -120,7 +120,6 @@ ActiveRecord::Schema.define(version: 20160817124148) do
     t.string   "postal_or_zipcode"
     t.string   "phone_number"
     t.string   "fax_number"
-    t.string   "vat_number"
     t.string   "email"
     t.string   "logo"
     t.string   "company_tag_line"
