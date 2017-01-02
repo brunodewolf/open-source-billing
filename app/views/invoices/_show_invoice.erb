@@ -22,9 +22,11 @@
 
         <p><%= @invoice.company.street_address_2 %></p>
 
-        <p><%= "#{@invoice.company.city}, #{@invoice.company.province_or_state } #{@invoice.company.postal_or_zipcode}" if @invoice.company.city %></p>
+        <p><%= "#{@invoice.company.postal_or_zipcode} #{@invoice.company.city} #{@invoice.company.province_or_state}" if @invoice.company.city %></p>
 
         <p><%= @invoice.company.country %></p>
+
+        <p><%= "#{@invoice.company.vat_number}" if @invoice.company.vat_number %></p>
       </div>
 
     </div>
